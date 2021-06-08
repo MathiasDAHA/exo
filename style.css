@@ -1,0 +1,65 @@
+/*.carrébleu {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    display: inline-flex;
+    background: #1900ff;
+}
+.carrérouge {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    display: inline-flex;
+    background: #ff0000;
+}
+.carrévert {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    display: inline-flex;
+    background: #00ff4c;
+}
+.carrénoir {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    display: inline-flex;
+    background: #000000;
+}*/
+.block {
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    display: inline-block;
+    border: black 2px solid;
+    background-color: orange;
+}
+#carre2 {
+    position: relative;
+    top: 20px;
+    border: 2px blue solid;
+}
+#carre4 {
+    position: relative;
+    left: -15px;
+    border: 2px red solid;
+}
+#carre6 {
+    position: absolute;
+    top: 180px;
+}
+.container {
+    border: green 5px solid;
+    position: relative;
+    width: 400px;
+    height: 90px;
+}
+#carre11 {
+    position: absolute;
+    top: 10px;
+}
+#carre12 {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
